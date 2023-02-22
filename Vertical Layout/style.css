@@ -1,1 +1,139 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+   
+  }
+  
+  
+  
+  .head {
+  height: 70px;
+  width: 100%;
+  margin-top: 38%;
+  padding-top: 5px;  
+  padding-bottom: 5px;
+  position: fixed;
+  
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  }
+  
+  
+ 
+  .container {
+    
+    display: flex;
+  }
+  
+  .packet {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    flex: 1;
+    transition: 1s;
+  }
+  
+  .packet_title {
+    position: absolute; 
+    bottom: 0;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .packet_content {
+    display: none;
+    margin: 10px;
+  }
+  
+  .packet_content_title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .packet_sub_content{
+    
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
 
+  
+  .packet:hover{
+    flex: 3;
+    font-size: 20px;
+  }
+  
+  .packet:active {
+    flex: 3;
+  }
+  
+  
+ 
+  .packet1:hover .packet_content{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  
+  .packet1:active .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet2:hover .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet2:active .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet3:hover .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet3:active .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet4:hover .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packet4:active .packet_content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .packet1 {
+    background-color: rgb(182, 24, 24);
+    
+  }
+  
+  .packet2 {
+    background-color: rgb(196, 86, 35);
+  }
+  
+  .packet3 {
+    background-color: rgb(232, 174, 39);
+  }
+  
+  .packet4 {
+    background-color: rgb(37, 141, 125);
+  
+  }
+  
+  
